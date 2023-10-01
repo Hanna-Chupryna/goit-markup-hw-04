@@ -61,6 +61,9 @@ img {
   background: #ffffff;
   padding-top: 24px;
   padding-bottom: 24px;
+  box-shadow: 0px 1px 6px 0px rgba(46, 47, 66, 0.08),
+    0px 1px 1px 0px rgba(46, 47, 66, 0.16),
+    0px 2px 1px 0px rgba(46, 47, 66, 0.08);
 }
 
 .header-container {
@@ -99,6 +102,7 @@ img {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.32px;
+
   transition-property: color;
   transition-duration: 300ms;
   transition-timing-function: linear;
@@ -121,7 +125,7 @@ img {
   line-height: 1.5;
   letter-spacing: 0.32px;
   transition-property: color;
-  transition-duration: 300ms;
+  transition-duration: 250ms;
   transition-timing-function: linear;
 }
 
@@ -199,7 +203,7 @@ img {
   border: none;
 
   transition-property: background-color;
-  transition-duration: 300ms;
+  transition-duration: 250ms;
   transition-timing-function: linear;
 }
 .btn:hover,

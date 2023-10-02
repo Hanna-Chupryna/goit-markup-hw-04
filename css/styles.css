@@ -404,8 +404,8 @@ img {
 
 .footer-container {
   display: flex;
-  gap: 120px;
 }
+
 .logo {
   display: inline-block;
   margin-bottom: 16px;
@@ -424,6 +424,7 @@ img {
   background: #2e2f42;
   width: 264px;
   margin-top: 16px;
+  margin-right: 120px;
 }
 
 .footer-soc {
@@ -440,7 +441,8 @@ img {
 
 .footer-icon-list {
   display: flex;
-  gap: 24px;
+  gap: 16px;
+  align-items: baseline;
 }
 
 .footer-icon-item {
@@ -457,13 +459,11 @@ img {
   justify-content: center;
   align-items: center;
 
-  transition-property: background-color;
-  transition-duration: 300ms;
-  transition-timing-function: linear;
+  transition: ackground-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-icon {
-  fill: none;
+  fill: #f4f4fd;
 }
 
 .footer-icon-link:hover,
